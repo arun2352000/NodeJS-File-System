@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-file-system",
+  "version": "1.0.0",
+  "description": "test code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Arunachalam",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.3.1",
+    "express": "^4.18.3",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.0"
+  }
+}
