@@ -7,7 +7,10 @@ app.listen(PORT, () => {
   console.log(`app is running in the port: ${PORT}`);
 }); 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "hai Arunachalam" });
+  let today = format(new Date(), "dd-mm-yyyy-HH-mm");
+  res
+    .status(200)
+    .json({ message: "hai this is  Arunachalam ", timestamp: `${today}` });
 });
 app.get("/write", (req, res) => {
   let today = format(new Date(), "dd-mm-yyyy-HH-mm");
